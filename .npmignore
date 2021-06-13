@@ -2,3 +2,15 @@ app/
 config/
 tests/
 vendor/
+public/
+/ember-cli-build.js
+/pnpm-lock.yaml
+/testem.js
+/.editorconfig
+/.ember-cli
+/.eslintignore
+/.prettierignore
+/.watchmanconfig
+/.eslintrc.js
+/.prettierrc.js
+/.template-lintrc.js
