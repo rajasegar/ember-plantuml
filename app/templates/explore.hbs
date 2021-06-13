@@ -1,0 +1,11 @@
+{{page-title "Explore"}}
+<h2>Explore</h2>
+{{log @model}}
+<ul>
+{{#each @model.files as |file|}}
+  <li>
+  <LinkTo @route="uml" @query={{hash folder=@model.folder file=file}}>{{file}}</LinkTo>
+  </li>
+{{/each}}
+</ul>
+

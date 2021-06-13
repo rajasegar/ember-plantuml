@@ -1,0 +1,18 @@
+{{page-title "Ember PlantUML"}}
+<header>
+<h1>Ember PlantUML</h1>
+</header>
+<div class="grid-col">
+  <aside>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><LinkTo @route="explore" @query={{hash path="app/components"}}>Components</LinkTo></li>
+        <li><LinkTo @route="explore" @query={{hash path="app/models"}}>Models</LinkTo></li>
+      </ul>
+    </nav>
+  </aside>
+  <div>
+{{outlet}}
+  </div>
+</div>
