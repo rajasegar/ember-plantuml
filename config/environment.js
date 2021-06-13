@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'my-app',
+    modulePrefix: 'ember-plantuml',
     environment,
     rootURL: '/',
     locationType: 'auto',

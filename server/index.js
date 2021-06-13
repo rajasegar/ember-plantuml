@@ -7,6 +7,7 @@ const fs = require('fs');
 const walkSync = require('walk-sync');
 const { transform } = require('ember-gen-uml');
 const plantuml = require('plantuml');
+const debug = require('debug')('ember-plantuml');
 
 function startServer(projectPath) {
   const app = express();
@@ -22,15 +23,15 @@ function startServer(projectPath) {
   });
 
   app.get('/uml', async (req, res) => {
-    console.log(req.query);
+    debug('Query params: ', req.query);
     const { folder, file } = req.query;
     // Read file
     const code = fs.readFileSync(`${folder}/${file}`, 'utf8');
     // Transform to uml
     const uml = transform(code);
-    console.log(uml);
+    debug('UML: ', uml);
     const svg = await plantuml(uml);
-    console.log(svg);
+    debug('SVG: ', svg);
     // Get the response
     res.json({ svg });
   });

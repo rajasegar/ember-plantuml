@@ -32,7 +32,8 @@
     "test:ember": "ember test",
     "build:watch": "ember build --watch",
     "start:cli": "./bin/ember-plantuml.js",
-    "dev": "concurrently \"npm run build:watch\" \"npm run start:cli\""
+    "dev": "concurrently \"npm run build:watch\" \"npm run start:cli\"",
+    "deploy": "git push && git push --tags && npm publish"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
@@ -78,6 +79,7 @@
     "edition": "octane"
   },
   "dependencies": {
+    "debug": "^4.3.1",
     "ember-gen-uml": "^2.0.1",
     "express": "^4.17.1",
     "get-port": "^5.1.1",

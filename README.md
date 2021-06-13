@@ -12,20 +12,24 @@ You will need the following things properly installed on your computer.
 * [Java](https://www.java.com/en/download/help/index_installing.html)
 * [GraphViz](https://graphviz.org/)
 
-## Installation
+## Usage
+```
+npx ember-plantuml
+```
+
+A new browser window will open where you can explore your project components and models and visualize them using PlantUML.
+
+
+## Install as a global npm package
 
 ```
 npm install --global ember-plantuml
 ```
 
-## Usage
 From your Ember project root folder invoke the CLI:
 ```
 ember-plantuml
 ```
-
-A new browser window will open where you can explore your project components and models and visualize them using PlantUML.
-
 
 ## Further Reading / Useful Links
 
