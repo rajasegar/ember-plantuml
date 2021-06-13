@@ -1,6 +1,6 @@
 {
   "name": "ember-plantuml",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "CLI to visualize your Ember.js Components and Models using usinPlantUML in the browser",
   "repository": "https://github.com/rajasegar/ember-plantuml",
