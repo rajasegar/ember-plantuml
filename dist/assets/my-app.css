@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.grid-col {
+  display: grid;
+  grid-template-columns:300px 1fr;
+}
