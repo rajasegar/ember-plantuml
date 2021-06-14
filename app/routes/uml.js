@@ -12,11 +12,12 @@ export default class UmlRoute extends Route {
   };
 
   async model(params) {
-    const unsafe = await fetch(
-      `/uml?folder=${params.folder}&file=${params.file}`
-    ).then((res) => res.json());
+    const { folder, file } = params;
+    const unsafe = await fetch(`/uml?folder=${folder}&file=${file}`).then(
+      (res) => res.json()
+    );
 
     const svg = htmlSafe(unsafe.svg);
-    return { svg };
+    return { svg, folder, file };
   }
 }

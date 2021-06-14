@@ -12,6 +12,8 @@ const debug = require('debug')('ember-plantuml');
 function startServer(projectPath) {
   const app = express();
 
+  const jsGlobs = { globs: ['**/*.js'] };
+
   app.get('/', (req, res) => {
     const indexFile = path.join(__dirname, '..', 'dist/index.html');
     res.sendFile(indexFile);
@@ -20,6 +22,12 @@ function startServer(projectPath) {
   app.get('/explore', (req, res) => {
     const { folder } = req.query;
     res.json({ files: walkSync(folder, { globs: ['**/*.js'] }), folder });
+  });
+
+  app.get('/files', (req, res) => {
+    const components = walkSync('app/components', jsGlobs);
+    const models = walkSync('app/models', jsGlobs);
+    res.json({ components, models });
   });
 
   app.get('/uml', async (req, res) => {

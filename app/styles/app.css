@@ -11,3 +11,50 @@ body {
   display: grid;
   grid-template-columns:300px 1fr;
 }
+
+header {
+  height: 50px;
+  background: darkred;
+  color: white;
+}
+
+header h1 {
+  line-height: 50px;
+  margin: 0 10px;
+}
+
+aside {
+  background: #eee;
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+}
+
+nav {
+  padding: 1em;
+}
+
+li {
+  list-style: none;
+  margin: 0.25em;
+}
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  margin: 0 auto;
+}
+
+main {
+  padding: 1em;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}

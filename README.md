@@ -9,7 +9,7 @@ A CLI to visualize your Ember.js Components and Models in PlantUML.
 
 You will need the following things properly installed on your computer.
 
-* [Java](https://www.java.com/en/download/help/index_installing.html)
+* [Java](https://www.oracle.com/in/java/technologies/javase-downloads.html)
 * [GraphViz](https://graphviz.org/)
 
 ## Usage
