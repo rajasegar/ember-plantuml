@@ -5,6 +5,8 @@
 
 A CLI to visualize your Ember.js Components and Models in PlantUML.
 
+![Demo gif](demo.gif)
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
