@@ -1,6 +1,10 @@
 {{page-title "Uml"}}
-<h2>{{@model.folder}}/{{@model.file}}</h2>
-{{log @model}}
+<div class="uml-header">
+<h4>{{@model.folder}}/{{@model.file}}</h4>
+<div>
+  <a href="/download?file={{@model.file}}&folder={{@model.folder}}">Download SVG</a>
+</div>
+</div>
 <div class="center">
   {{@model.svg}}
 </div>

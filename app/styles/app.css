@@ -9,18 +9,26 @@ body {
 
 .grid-col {
   display: grid;
-  grid-template-columns:300px 1fr;
+  grid-template-columns:200px 1fr;
 }
 
 header {
   height: 50px;
-  background: darkred;
+  background: #E04E39;
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
   line-height: 50px;
   margin: 0 10px;
+}
+
+header a {
+  color: white;
+  line-height: 50px;
+  margin-right: 1em;
 }
 
 aside {
@@ -50,11 +58,33 @@ li {
 
 main {
   padding: 1em;
+  height: 90vh;
+  overflow: auto;
 }
 
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: auto;
+}
+
+.uml-header {
+  display: flex;
+  justify-content:space-between;
+  margin-bottom:1em;
+}
+
+summary {
+  cursor: pointer;
+}
+
+.logo-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  text-align:center;
+  margin-bottom: 0 auto 1em;
 }

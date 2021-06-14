@@ -40,8 +40,23 @@ function startServer(projectPath) {
     debug('UML: ', uml);
     const svg = await plantuml(uml);
     debug('SVG: ', svg);
-    // Get the response
     res.json({ svg });
+  });
+
+  app.get('/download', async (req, res) => {
+    debug('Query params: ', req.query);
+    const { folder, file } = req.query;
+    // Read file
+    const code = fs.readFileSync(`${folder}/${file}`, 'utf8');
+    // Transform to uml
+    const uml = transform(code);
+    debug('UML: ', uml);
+    const svg = await plantuml(uml);
+    debug('SVG: ', svg);
+
+    res.header('Content-Type', 'image/svg+xml');
+    res.attachment(`${path.basename(file, '.js')}.svg`);
+    res.send(svg);
   });
 
   app.use('/assets', express.static(path.join(__dirname, '..', 'dist/assets')));
