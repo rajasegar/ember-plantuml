@@ -74,7 +74,7 @@
     "prettier": "^2.2.1",
     "qunit": "^2.14.1",
     "qunit-dom": "^2.0.0",
-    "semantic-release": "^17.4.7"
+    "semantic-release": "^18.0.0"
   },
   "engines": {
     "node": "10.* || >= 12"
