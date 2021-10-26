@@ -16,7 +16,7 @@ specifiers:
   ember-cli-app-version: 5.0.0
   ember-cli-babel: 7.26.6
   ember-cli-dependency-checker: 3.2.0
-  ember-cli-htmlbars: 5.7.1
+  ember-cli-htmlbars: 6.0.0
   ember-cli-inject-live-reload: 2.1.0
   ember-cli-sri: 2.1.1
   ember-cli-terser: 4.0.2
@@ -69,7 +69,7 @@ devDependencies:
   ember-cli-app-version: 5.0.0
   ember-cli-babel: 7.26.6
   ember-cli-dependency-checker: 3.2.0
-  ember-cli-htmlbars: 5.7.1
+  ember-cli-htmlbars: 6.0.0
   ember-cli-inject-live-reload: 2.1.0
   ember-cli-sri: 2.1.1
   ember-cli-terser: 4.0.2
@@ -3443,6 +3443,11 @@ packages:
       babel-template: 6.26.0
     dev: true
 
+  /babel-import-util/0.2.0:
+    resolution: {integrity: sha512-CtWYYHU/MgK88rxMrLfkD356dApswtR/kWZ/c6JifG1m10e7tBBrs/366dFzWMAoqYmG5/JSh+94tUSpIwh+ag==}
+    engines: {node: '>= 12.*'}
+    dev: true
+
   /babel-loader/8.2.2_802eaa88f56443e8614799ffa818327a:
     resolution: {integrity: sha512-JvTd0/D889PQBtUXJ2PXaKU/pjZDMtHA9V2ecm+eNRmmBCMR09a+fmpGTNwnJtFmFl5Ei7Vy47LjBb+L0wQ99g==}
     engines: {node: '>= 8.9'}
@@ -3509,6 +3514,16 @@ packages:
     engines: {node: 6.* || 8.* || >= 10.*}
     dependencies:
       ember-rfc176-data: 0.3.17
+    dev: true
+
+  /babel-plugin-ember-template-compilation/1.0.0:
+    resolution: {integrity: sha512-SvDQ+DbimZEq7XZztxiCKPNO3/HEwAOKBdJ9r4qtMpgmSuuhzO1elkixJTrnwnkLv1titAYAXNqLVD1fkE4Vgg==}
+    engines: {node: '>= 12.*'}
+    dependencies:
+      babel-import-util: 0.2.0
+      line-column: 1.0.2
+      magic-string: 0.25.7
+      string.prototype.matchall: 4.0.5
     dev: true
 
   /babel-plugin-filter-imports/4.0.0:
@@ -5605,6 +5620,29 @@ packages:
       broccoli-plugin: 4.0.7
       common-tags: 1.8.0
       ember-cli-babel-plugin-helpers: 1.1.1
+      ember-cli-version-checker: 5.1.2
+      fs-tree-diff: 2.0.1
+      hash-for-dep: 1.5.1
+      heimdalljs-logger: 0.1.10
+      json-stable-stringify: 1.0.1
+      semver: 7.3.5
+      silent-error: 1.1.1
+      strip-bom: 4.0.0
+      walk-sync: 2.2.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /ember-cli-htmlbars/6.0.0:
+    resolution: {integrity: sha512-7h9Lb1kfvLecMUOX8wCbwjzCsgXdNDs8qpOsDuKV6YaGS9jDZHu4P5xTYLX78YepEUnwOw1atCYWzBUsJHWrzA==}
+    engines: {node: 12.* || 14.* || >= 16}
+    dependencies:
+      '@ember/edition-utils': 1.2.0
+      babel-plugin-ember-template-compilation: 1.0.0
+      babel-plugin-htmlbars-inline-precompile: 5.3.0
+      broccoli-debug: 0.6.5
+      broccoli-persistent-filter: 3.1.2
+      broccoli-plugin: 4.0.7
       ember-cli-version-checker: 5.1.2
       fs-tree-diff: 2.0.1
       hash-for-dep: 1.5.1
