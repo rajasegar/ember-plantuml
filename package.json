@@ -75,7 +75,7 @@
     "qunit": "2.17.2",
     "qunit-dom": "2.0.0",
     "semantic-release": "18.0.0",
-    "webpack": "^5.60.0"
+    "webpack": "5.60.0"
   },
   "engines": {
     "node": "10.* || >= 12"
