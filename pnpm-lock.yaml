@@ -5,8 +5,8 @@ specifiers:
   '@ember/test-helpers': 2.5.0
   '@glimmer/component': 1.0.4
   '@glimmer/tracking': 1.0.4
-  '@semantic-release/changelog': 6.0.0
-  '@semantic-release/git': 10.0.0
+  '@semantic-release/changelog': 6.0.1
+  '@semantic-release/git': 10.0.1
   babel-eslint: 10.1.0
   broccoli-asset-rev: 3.0.0
   concurrently: 6.3.0
@@ -60,8 +60,8 @@ devDependencies:
   '@ember/test-helpers': 2.5.0
   '@glimmer/component': 1.0.4
   '@glimmer/tracking': 1.0.4
-  '@semantic-release/changelog': 6.0.0_semantic-release@18.0.0
-  '@semantic-release/git': 10.0.0_semantic-release@18.0.0
+  '@semantic-release/changelog': 6.0.1_semantic-release@18.0.0
+  '@semantic-release/git': 10.0.1_semantic-release@18.0.0
   babel-eslint: 10.1.0_eslint@7.32.0
   broccoli-asset-rev: 3.0.0
   concurrently: 6.3.0
@@ -2552,13 +2552,13 @@ packages:
       '@octokit/openapi-types': 9.7.0
     dev: true
 
-  /@semantic-release/changelog/6.0.0_semantic-release@18.0.0:
-    resolution: {integrity: sha512-X01Me+QVMykvILockNGlXXl3dgr1QqpbRQsknQoOJQCXQGXoqY3DNQ3rBQuI8/SUK7RZwYLctg0NbPNArlo6eQ==}
+  /@semantic-release/changelog/6.0.1_semantic-release@18.0.0:
+    resolution: {integrity: sha512-FT+tAGdWHr0RCM3EpWegWnvXJ05LQtBkQUaQRIExONoXjVjLuOILNm4DEKNaV+GAQyJjbLRVs57ti//GypH6PA==}
     engines: {node: '>=14.17'}
     peerDependencies:
       semantic-release: '>=18.0.0'
     dependencies:
-      '@semantic-release/error': 2.2.0
+      '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
       fs-extra: 9.1.0
       lodash: 4.17.21
@@ -2592,13 +2592,13 @@ packages:
     engines: {node: '>=14.17'}
     dev: true
 
-  /@semantic-release/git/10.0.0_semantic-release@18.0.0:
-    resolution: {integrity: sha512-/BljvngXJzwbFFJouxHHvSzAhi5iaucF7l0kQPszD4m7Y79+FHyvQl5Q/HK7T/e8MIwU9hz321KjOZn9yfSpPg==}
+  /@semantic-release/git/10.0.1_semantic-release@18.0.0:
+    resolution: {integrity: sha512-eWrx5KguUcU2wUPaO6sfvZI0wPafUKAMNC18aXY4EnNcrZL86dEmpNVnC9uMpGZkmZJ9EfCVJBQx4pV4EMGT1w==}
     engines: {node: '>=14.17'}
     peerDependencies:
       semantic-release: '>=18.0.0'
     dependencies:
-      '@semantic-release/error': 2.2.0
+      '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
       debug: 4.3.2
       dir-glob: 3.0.1
