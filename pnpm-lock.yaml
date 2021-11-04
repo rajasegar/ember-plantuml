@@ -28,7 +28,7 @@ specifiers:
   ember-page-title: 6.2.2
   ember-qunit: 5.1.5
   ember-resolver: 8.0.3
-  ember-source: 3.28.5
+  ember-source: 3.28.6
   ember-template-lint: 3.12.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
@@ -81,7 +81,7 @@ devDependencies:
   ember-page-title: 6.2.2
   ember-qunit: 5.1.5_a4157b36b7b8101144d0ea83944ffd48
   ember-resolver: 8.0.3
-  ember-source: 3.28.5
+  ember-source: 3.28.6
   ember-template-lint: 3.12.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
@@ -6291,8 +6291,8 @@ packages:
       node-fetch: 2.6.1
     dev: true
 
-  /ember-source/3.28.5:
-    resolution: {integrity: sha512-15Utu+sm1OklCE/MWPk+gJzV3cPYCRtWllwyzpZgz6uHgeOwBjPWydztWpaOF+7AhjgB22eWhPm3OJAU8xxjLg==}
+  /ember-source/3.28.6:
+    resolution: {integrity: sha512-CW92R8qa6x6fedJcIl71QvR8vj1c4f0I5LgAKB5eXoFhdDXD+peRtPPuc1i+C+1/ojvaWfDO3RpFcxkiXqvSQA==}
     engines: {node: 10.* || >= 12.*}
     dependencies:
       '@babel/helper-module-imports': 7.14.5
