@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@ember/optional-features': 2.0.0
-  '@ember/test-helpers': 2.5.0
+  '@ember/test-helpers': 2.6.0
   '@glimmer/component': 1.0.4
   '@glimmer/tracking': 1.0.4
   '@semantic-release/changelog': 6.0.1
@@ -57,7 +57,7 @@ dependencies:
 
 devDependencies:
   '@ember/optional-features': 2.0.0
-  '@ember/test-helpers': 2.5.0
+  '@ember/test-helpers': 2.6.0
   '@glimmer/component': 1.0.4
   '@glimmer/tracking': 1.0.4
   '@semantic-release/changelog': 6.0.1_semantic-release@18.0.0
@@ -79,7 +79,7 @@ devDependencies:
   ember-load-initializers: 2.1.2
   ember-maybe-import-regenerator: 1.0.0
   ember-page-title: 6.2.2
-  ember-qunit: 5.1.5_a4157b36b7b8101144d0ea83944ffd48
+  ember-qunit: 5.1.5_71cf3139f132abb8fb8e124dd974b045
   ember-resolver: 8.0.3
   ember-source: 3.28.6
   ember-template-lint: 3.12.0
@@ -2124,8 +2124,8 @@ packages:
       silent-error: 1.1.1
     dev: true
 
-  /@ember/test-helpers/2.5.0:
-    resolution: {integrity: sha512-7zDhA8KzU42R9J5+SrWncMA7C/v15e7JM9wfE2woktyR4AlVBP47qiphbJ8EhhWzE12wioY7cb5/Qw+RwgGEiQ==}
+  /@ember/test-helpers/2.6.0:
+    resolution: {integrity: sha512-N5sr3layWk60wB3maCy+/5hFHQRcTh8aqxcZTSs3Od9QkuHdWBtRgMGLP/35mXpJlgWuu3xqLpt6u3dGHc8gCg==}
     engines: {node: 10.* || 12.* || 14.* || 15.* || >= 16.*}
     dependencies:
       '@ember/test-waiters': 3.0.0
@@ -6226,14 +6226,14 @@ packages:
       - supports-color
     dev: true
 
-  /ember-qunit/5.1.5_a4157b36b7b8101144d0ea83944ffd48:
+  /ember-qunit/5.1.5_71cf3139f132abb8fb8e124dd974b045:
     resolution: {integrity: sha512-2cFA4oMygh43RtVcMaBrr086Tpdhgbn3fVZ2awLkzF/rnSN0D0PSRpd7hAD7OdBPerC/ZYRwzVyGXLoW/Zes4A==}
     engines: {node: 10.* || 12.* || >= 14.*}
     peerDependencies:
       '@ember/test-helpers': ^2.4.0
       qunit: ^2.13.0
     dependencies:
-      '@ember/test-helpers': 2.5.0
+      '@ember/test-helpers': 2.6.0
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 3.0.2
       common-tags: 1.8.0
