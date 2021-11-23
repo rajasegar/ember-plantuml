@@ -22,7 +22,7 @@ specifiers:
   ember-cli-terser: 4.0.2
   ember-export-application-global: 2.0.1
   ember-fetch: 8.1.1
-  ember-gen-uml: 2.1.13
+  ember-gen-uml: 2.1.17
   ember-load-initializers: 2.1.2
   ember-maybe-import-regenerator: 1.0.0
   ember-page-title: 7.0.0
@@ -49,7 +49,7 @@ specifiers:
 
 dependencies:
   debug: 4.3.2
-  ember-gen-uml: 2.1.13
+  ember-gen-uml: 2.1.17
   express: 4.17.1
   get-port: 6.0.0
   plantuml: 0.0.1
@@ -6160,8 +6160,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-gen-uml/2.1.13:
-    resolution: {integrity: sha512-jwhxgP6VZ0tQbdKa874KBOkOhwTULjEGDFsrzLEMXBSDL9PMeLhsPSKqj63hY282+xkLofe9L4JUZLi3MuthdA==}
+  /ember-gen-uml/2.1.17:
+    resolution: {integrity: sha512-NHIVZKeP9Sg+RcQga1IqKPMTPwAUGXRLqGV6kL3rAHPeSJIuiR4e9+yD588GVBWPXoFae7XvcSa96+hMhr4fVA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
