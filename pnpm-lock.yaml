@@ -32,7 +32,7 @@ specifiers:
   ember-template-lint: 3.13.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
-  eslint-plugin-ember: 10.5.7
+  eslint-plugin-ember: 10.5.8
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.0.0
   express: 4.17.1
@@ -81,11 +81,11 @@ devDependencies:
   ember-page-title: 7.0.0
   ember-qunit: 5.1.5_71cf3139f132abb8fb8e124dd974b045
   ember-resolver: 8.0.3
-  ember-source: 4.0.0_webpack@5.64.1
+  ember-source: 4.0.0_webpack@5.64.2
   ember-template-lint: 3.13.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
-  eslint-plugin-ember: 10.5.7_eslint@7.32.0
+  eslint-plugin-ember: 10.5.8_eslint@7.32.0
   eslint-plugin-node: 11.1.0_eslint@7.32.0
   eslint-plugin-prettier: 4.0.0_6e975bd57c7acf028c1a9ddbbf60c898
   loader.js: 4.7.0
@@ -6277,7 +6277,7 @@ packages:
       node-fetch: 2.6.1
     dev: true
 
-  /ember-source/4.0.0_webpack@5.64.1:
+  /ember-source/4.0.0_webpack@5.64.2:
     resolution: {integrity: sha512-DfmcJRnA2ZXxEACP0hrm2Seg7eJk66GpkGK41drq/zStRMzK7IQA4jZ6reTO2E9TVGyU40+6huSc4pU93e6o3Q==}
     engines: {node: '>= 12.*'}
     dependencies:
@@ -6293,7 +6293,7 @@ packages:
       broccoli-funnel: 2.0.2
       broccoli-merge-trees: 4.2.0
       chalk: 4.1.2
-      ember-auto-import: 2.2.4_webpack@5.64.1
+      ember-auto-import: 2.2.4_webpack@5.64.2
       ember-cli-babel: 7.26.6
       ember-cli-get-component-path-option: 1.0.0
       ember-cli-is-package-missing: 1.0.0
@@ -6538,8 +6538,8 @@ packages:
       eslint: 7.32.0
     dev: true
 
-  /eslint-plugin-ember/10.5.7_eslint@7.32.0:
-    resolution: {integrity: sha512-PTnZxbexrvRgEUtiuTaRjcFIIezzNsaJLUkvOoKhmxXTZnWgSPV36PGv5ml0BOallWYAOocefjTgv9SWvlmEdw==}
+  /eslint-plugin-ember/10.5.8_eslint@7.32.0:
+    resolution: {integrity: sha512-d21mJ+F+htgi6HhrjwbOfllJojF4ZWGruW13HkBoGS2SaHqKUyvIH/8j3EjSxlsGFiNfhTEUWkNaUSLJxgbtWg==}
     engines: {node: 10.* || 12.* || >= 14}
     peerDependencies:
       eslint: '>= 6'
@@ -6549,7 +6549,7 @@ packages:
       ember-rfc176-data: 0.3.17
       eslint: 7.32.0
       eslint-utils: 3.0.0_eslint@7.32.0
-      estraverse: 5.2.0
+      estraverse: 5.3.0
       lodash.kebabcase: 4.1.1
       requireindex: 1.2.0
       snake-case: 3.0.4
@@ -6732,11 +6732,6 @@ packages:
 
   /estraverse/4.3.0:
     resolution: {integrity: sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==}
-    engines: {node: '>=4.0'}
-    dev: true
-
-  /estraverse/5.2.0:
-    resolution: {integrity: sha512-BxbNGGNm0RyRYvUdHpIwv9IWzeM9XClbOxwoATuFdOE7ZE6wHL+HQ5T8hoPM+zHvmKzzsEqhgy0GrQ5X13afiQ==}
     engines: {node: '>=4.0'}
     dev: true
 
