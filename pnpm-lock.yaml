@@ -29,7 +29,7 @@ specifiers:
   ember-qunit: 5.1.5
   ember-resolver: 8.0.3
   ember-source: 4.0.0
-  ember-template-lint: 3.13.0
+  ember-template-lint: 3.14.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-ember: 10.5.8
@@ -82,7 +82,7 @@ devDependencies:
   ember-qunit: 5.1.5_71cf3139f132abb8fb8e124dd974b045
   ember-resolver: 8.0.3
   ember-source: 4.0.0_webpack@5.64.3
-  ember-template-lint: 3.13.0
+  ember-template-lint: 3.14.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
   eslint-plugin-ember: 10.5.8_eslint@7.32.0
@@ -5395,6 +5395,11 @@ packages:
     engines: {node: '>=0.11'}
     dev: true
 
+  /date-fns/2.26.0:
+    resolution: {integrity: sha512-VQI812dRi3cusdY/fhoBKvc6l2W8BPWU1FNVnFH9Nttjx4AFBRzfSVb/Eyc7jBT6e9sg1XtAGsYpBQ6c/jygbg==}
+    engines: {node: '>=0.11'}
+    dev: true
+
   /date-time/2.1.0:
     resolution: {integrity: sha512-/9+C44X7lot0IeiyfgJmETtRMhBidBYM2QFFIkGa0U1k+hSyY87Nw7PY3eDqpvCBm7I3WCSfPeZskW/YYq6m4g==}
     engines: {node: '>=4'}
@@ -6311,15 +6316,15 @@ packages:
       - webpack
     dev: true
 
-  /ember-template-lint/3.13.0:
-    resolution: {integrity: sha512-hT0iatx39qWbxn/ReXsWnIMXa5pWBE/fLrEmzfDmqLjTrWbYE6op1BE1Kbuq0Js96baD3+Nnp+cTbaTYiZPWug==}
+  /ember-template-lint/3.14.0:
+    resolution: {integrity: sha512-0elxAseSft1SjQFcwqYddCXcsBW783M8TBXQ/eGXBzWTZVFwh/Oe+13SggVeUoyr9ZUX9ngW6rFEsKIyofY0KA==}
     engines: {node: '>= 10.24 < 11 || 12.* || >= 14.*'}
     hasBin: true
     dependencies:
       '@ember-template-lint/todo-utils': 10.0.0
       chalk: 4.1.2
       ci-info: 3.2.0
-      date-fns: 2.25.0
+      date-fns: 2.26.0
       ember-template-recast: 5.0.3
       find-up: 5.0.0
       fuse.js: 6.4.6
