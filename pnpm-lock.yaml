@@ -14,7 +14,7 @@ specifiers:
   ember-auto-import: 2.2.4
   ember-cli: 3.28.4
   ember-cli-app-version: 5.0.0
-  ember-cli-babel: 7.26.8
+  ember-cli-babel: 7.26.10
   ember-cli-dependency-checker: 3.2.0
   ember-cli-htmlbars: 6.0.1
   ember-cli-inject-live-reload: 2.1.0
@@ -68,7 +68,7 @@ devDependencies:
   ember-auto-import: 2.2.4_webpack@5.65.0
   ember-cli: 3.28.4_debug@4.3.2
   ember-cli-app-version: 5.0.0
-  ember-cli-babel: 7.26.8
+  ember-cli-babel: 7.26.10
   ember-cli-dependency-checker: 3.2.0
   ember-cli-htmlbars: 6.0.1
   ember-cli-inject-live-reload: 2.1.0
@@ -2396,7 +2396,7 @@ packages:
       '@ember/test-waiters': 3.0.0
       broccoli-debug: 0.6.5
       broccoli-funnel: 3.0.8
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       ember-cli-htmlbars: 5.7.1
       ember-destroyable-polyfill: 2.0.3
     transitivePeerDependencies:
@@ -2409,7 +2409,7 @@ packages:
     engines: {node: 10.* || 12.* || >= 14.*}
     dependencies:
       calculate-cache-key-for-tree: 2.0.0
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       ember-cli-version-checker: 5.1.2
       semver: 7.3.5
     transitivePeerDependencies:
@@ -2469,7 +2469,7 @@ packages:
       '@babel/types': 7.16.0
       '@embroider/core': 0.33.0
       assert-never: 1.2.1
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       lodash: 4.17.21
       resolve: 1.20.0
       semver: 7.3.5
@@ -2519,7 +2519,7 @@ packages:
       '@glimmer/util': 0.44.0
       broccoli-file-creator: 2.1.1
       broccoli-merge-trees: 3.0.2
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       ember-cli-get-component-path-option: 1.0.0
       ember-cli-is-package-missing: 1.0.0
       ember-cli-normalize-entity-name: 1.0.0
@@ -6005,7 +6005,7 @@ packages:
       broccoli-plugin: 4.0.7
       broccoli-source: 3.0.1
       debug: 3.2.7
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       enhanced-resolve: 4.5.0
       fs-extra: 6.0.1
       fs-tree-diff: 2.0.1
@@ -6050,7 +6050,7 @@ packages:
       broccoli-source: 3.0.1
       css-loader: 5.2.7_webpack@5.65.0
       debug: 4.3.2
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       fs-extra: 6.0.1
       fs-tree-diff: 2.0.1
       handlebars: 4.7.7
@@ -6074,7 +6074,7 @@ packages:
     resolution: {integrity: sha512-afhx/CXDOMNXzoe4NDPy5WUfxWmYYHUzMCiTyvPBxCDBXYcMrtxNWxvgaSaeqcoHVEmqzeyBj8V82tzmT1dcyw==}
     engines: {node: 10.* || >= 12}
     dependencies:
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       git-repo-info: 2.1.1
     transitivePeerDependencies:
       - supports-color
@@ -6085,14 +6085,16 @@ packages:
     engines: {node: 6.* || 8.* || >= 10.*}
     dev: true
 
-  /ember-cli-babel/7.26.8:
-    resolution: {integrity: sha512-PqqR9wzIHziVnktcYSi5OWI/dvJJvscYlWdiIpoWWkXKyWqd5tk9iobDPS1bcRi3y0TtP8nAyLjy8tGyFLiA5Q==}
+  /ember-cli-babel/7.26.10:
+    resolution: {integrity: sha512-xWaC0NsqP6M5an0QEjgV5MNqhWLJBYa85454SSNaskXFsGHS+0PPQTbgU1brqIRKBjDSNeAnRzFTafmnW8h7Zw==}
     engines: {node: 6.* || 8.* || >= 10.*}
     dependencies:
       '@babel/core': 7.14.5
       '@babel/helper-compilation-targets': 7.16.3_@babel+core@7.14.5
       '@babel/plugin-proposal-class-properties': 7.16.5_@babel+core@7.14.5
       '@babel/plugin-proposal-decorators': 7.14.5_@babel+core@7.14.5
+      '@babel/plugin-proposal-private-methods': 7.16.5_@babel+core@7.14.5
+      '@babel/plugin-proposal-private-property-in-object': 7.16.5_@babel+core@7.14.5
       '@babel/plugin-transform-modules-amd': 7.16.5_@babel+core@7.14.5
       '@babel/plugin-transform-runtime': 7.14.5_@babel+core@7.14.5
       '@babel/plugin-transform-typescript': 7.14.5_@babel+core@7.14.5
@@ -6243,7 +6245,7 @@ packages:
     resolution: {integrity: sha512-wfFRBrfO9gaKScYcdQxTfklx9yp1lWK6zv1rZRpkas9z2SHyJojF7NOQRWQgSB3ypm7vfpiF8VsFFVVr7VBzAQ==}
     engines: {node: 10.* || >= 12}
     dependencies:
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6452,7 +6454,7 @@ packages:
     resolution: {integrity: sha512-TovtNqCumzyAiW0/OisSkkVK93xnVF4NRU6+FN0ubpfwEOpRrmM2RqDwXI6YAChCgSHON1cz0DfQStpA1Gjuuw==}
     engines: {node: 10.* || >= 12}
     dependencies:
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       ember-cli-version-checker: 5.1.2
       ember-compatibility-helpers: 1.2.4
     transitivePeerDependencies:
@@ -6478,7 +6480,7 @@ packages:
       broccoli-templater: 2.0.2
       calculate-cache-key-for-tree: 2.0.0
       caniuse-api: 3.0.0
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       ember-cli-typescript: 4.1.0
       ember-cli-version-checker: 5.1.2
       node-fetch: 2.6.1
@@ -6511,7 +6513,7 @@ packages:
     resolution: {integrity: sha512-CYR+U/wRxLbrfYN3dh+0Tb6mFaxJKfdyz+wNql6cqTrA0BBi9k6J3AaKXj273TqvEpyyXegQFFkZEiuZdYtgJw==}
     engines: {node: 6.* || 8.* || >= 10.*}
     dependencies:
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       ember-cli-typescript: 2.0.2
     transitivePeerDependencies:
       - '@babel/core'
@@ -6524,7 +6526,7 @@ packages:
     dependencies:
       broccoli-funnel: 2.0.2
       broccoli-merge-trees: 3.0.2
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       regenerator-runtime: 0.13.7
     transitivePeerDependencies:
       - supports-color
@@ -6534,7 +6536,7 @@ packages:
     resolution: {integrity: sha512-oq6+HYbeVD/BnxIO5AkP4gWlsatdgW2HFO10F8+XQiJZrwa7cC7Wm54JNGqQkavkDQTgNSiy1Fe2NILJ14MmAg==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6551,7 +6553,7 @@ packages:
       broccoli-merge-trees: 3.0.2
       common-tags: 1.8.0
       ember-auto-import: 1.12.0
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       ember-cli-test-loader: 3.0.0
       qunit: 2.17.2
       resolve-package-path: 3.1.0
@@ -6573,7 +6575,7 @@ packages:
       babel-plugin-debug-macros: 0.3.4
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 4.2.0
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       ember-cli-version-checker: 5.1.2
       resolve: 1.20.0
     transitivePeerDependencies:
@@ -6621,7 +6623,7 @@ packages:
       broccoli-merge-trees: 4.2.0
       chalk: 4.1.2
       ember-auto-import: 2.2.4_webpack@5.65.0
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       ember-cli-get-component-path-option: 1.0.0
       ember-cli-is-package-missing: 1.0.0
       ember-cli-normalize-entity-name: 1.0.0
@@ -10817,7 +10819,7 @@ packages:
     dependencies:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 4.2.0
-      ember-cli-babel: 7.26.8
+      ember-cli-babel: 7.26.10
       ember-cli-version-checker: 5.1.2
     transitivePeerDependencies:
       - supports-color
