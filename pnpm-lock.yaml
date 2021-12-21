@@ -12,7 +12,7 @@ specifiers:
   concurrently: 6.5.1
   debug: 4.3.2
   ember-auto-import: 2.2.4
-  ember-cli: 3.28.4
+  ember-cli: 3.28.5
   ember-cli-app-version: 5.0.0
   ember-cli-babel: 7.26.10
   ember-cli-dependency-checker: 3.2.0
@@ -66,7 +66,7 @@ devDependencies:
   broccoli-asset-rev: 3.0.0
   concurrently: 6.5.1
   ember-auto-import: 2.2.4_webpack@5.65.0
-  ember-cli: 3.28.4_debug@4.3.2
+  ember-cli: 3.28.5_debug@4.3.2
   ember-cli-app-version: 5.0.0
   ember-cli-babel: 7.26.10
   ember-cli-dependency-checker: 3.2.0
@@ -367,7 +367,7 @@ packages:
     resolution: {integrity: sha512-SwrNHu5QWS84XlHwGYPDtCxcA0hrSlL2yhWYLgeOc0w7ccOl2qv4s/nARI0aYZW+bSwAL5CukeXA47B/1NKcnQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.14.5
+      '@babel/types': 7.16.0
     dev: true
 
   /@babel/helper-module-imports/7.16.0:
@@ -396,11 +396,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.16.0
-
-  /@babel/helper-plugin-utils/7.14.5:
-    resolution: {integrity: sha512-/37qQCE3K0vvZKwoK4XU/irIJQdIfCJuhU5eKnNxpFDsOkgFaUAwbv+RYw6eYgsC0E4hS7r5KqGULUogqui0fQ==}
-    engines: {node: '>=6.9.0'}
-    dev: true
 
   /@babel/helper-plugin-utils/7.16.5:
     resolution: {integrity: sha512-59KHWHXxVA9K4HNF4sbHCf+eJeFe0Te/ZFGqBT4OjXhrwvA04sGfaEGsVTdsjoszq0YTP49RC9UKe5g8uN2RwQ==}
@@ -1300,7 +1295,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/helper-plugin-utils': 7.14.5
+      '@babel/helper-plugin-utils': 7.16.5
     dev: true
 
   /@babel/plugin-transform-block-scoping/7.16.5:
@@ -1534,20 +1529,6 @@ packages:
     dependencies:
       '@babel/core': 7.14.5
       '@babel/helper-plugin-utils': 7.16.5
-    dev: true
-
-  /@babel/plugin-transform-modules-amd/7.14.5_@babel+core@7.14.5:
-    resolution: {integrity: sha512-3lpOU8Vxmp3roC4vzFpSdEpGUWSMsHFreTWOMMLzel2gNGfHE5UWIh/LN6ghHs2xurUp4jRFYMUIZhuFbody1g==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.14.5
-      '@babel/helper-module-transforms': 7.16.5
-      '@babel/helper-plugin-utils': 7.16.5
-      babel-plugin-dynamic-import-node: 2.3.3
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@babel/plugin-transform-modules-amd/7.16.5:
@@ -3946,7 +3927,7 @@ packages:
     resolution: {integrity: sha512-jDLlxI8QnfKd7PtieH6pl4tZJzymzfCDCPGdTq/grgbiYAikwDPp/oL0IlFJn0HQjLpcLkyYhPKkUVneRESw5w==}
     engines: {node: '>=8'}
     dependencies:
-      '@babel/types': 7.14.5
+      '@babel/types': 7.16.0
       lodash: 4.17.21
     dev: true
 
@@ -6330,13 +6311,13 @@ packages:
       silent-error: 1.1.1
     dev: true
 
-  /ember-cli/3.28.4_debug@4.3.2:
-    resolution: {integrity: sha512-bRQpZqx1YctDNR7gb5CXfXYkZtieMh4F6v6bZtu+Da8jWTKoGizG1LXsG/Bhs96USPjlZZsErkSBo6qiGjJlcA==}
+  /ember-cli/3.28.5_debug@4.3.2:
+    resolution: {integrity: sha512-Y/UdbUOTeKHGMCP3XtE5g14JUTYyeQTdjPvHuv11FFx5HQBtHqqWLY6U1ivMDukDkQ4i2v6TyaUcKVo4e8PtyQ==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
       '@babel/core': 7.14.5
-      '@babel/plugin-transform-modules-amd': 7.14.5_@babel+core@7.14.5
+      '@babel/plugin-transform-modules-amd': 7.16.5_@babel+core@7.14.5
       amd-name-resolver: 1.3.1
       babel-plugin-module-resolver: 4.1.0
       bower-config: 1.4.3
@@ -6586,8 +6567,8 @@ packages:
     resolution: {integrity: sha512-89oVHVJwmLDvGvAUWgS87KpBoRhy3aZ6U0Ql6HOmU4TrPkyaa8pM0W81wj9cIwjYprcQtN9EwzZMHnq46+oUyw==}
     engines: {node: 8.* || 10.* || >= 12}
     dependencies:
-      '@babel/parser': 7.14.5
-      '@babel/traverse': 7.14.5
+      '@babel/parser': 7.16.6
+      '@babel/traverse': 7.16.5
       recast: 0.18.10
     transitivePeerDependencies:
       - supports-color
