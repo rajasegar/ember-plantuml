@@ -84,7 +84,7 @@
     "edition": "octane"
   },
   "dependencies": {
-    "debug": "4.3.2",
+    "debug": "4.3.4",
     "ember-gen-uml": "2.1.17",
     "express": "4.17.1",
     "get-port": "6.0.0",
