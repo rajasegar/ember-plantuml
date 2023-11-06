@@ -43,7 +43,7 @@
     "@glimmer/tracking": "1.0.4",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "babel-eslint": "10.1.0",
+    "@babel/eslint-parser": "7.11.0",
     "broccoli-asset-rev": "3.0.0",
     "concurrently": "6.5.1",
     "ember-auto-import": "2.2.4",
